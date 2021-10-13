@@ -31,3 +31,17 @@
 .white-text {
   color: white;
 }
+
+.carousel-thing {
+  margin-top: 10em;
+}
+
+.jumbo-carousel {
+  height: 20em;
+  width: 70%;
+  background-color: white;
+}
+
+body {
+  background-color: #e4e9ed;
+}
