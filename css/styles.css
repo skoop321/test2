@@ -40,8 +40,17 @@
   height: 20em;
   width: 70%;
   background-color: white;
+  text-align: center;
 }
 
 body {
   background-color: #e4e9ed;
+}
+
+.features {
+  text-align: center;
+  background-color: white;
+  margin: 1em;
+  padding: 2em;
+  border-radius: 5px;
 }
