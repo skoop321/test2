@@ -60,3 +60,11 @@ body {
   padding: 2em;
   text-align: center;
 }
+
+.blog {
+  text-align: center;
+  background-color: #99a0a1;
+  margin: 1em;
+  padding: 2em;
+  border-radius: 5px;
+}
