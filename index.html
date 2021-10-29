@@ -35,7 +35,7 @@
             <a class="nav-link" href="#" onclick="$('#contact-overlay').show();">Contact Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Sign Up</a>
+            <a class="nav-link" href="#" onclick="$('#signup-overlay').show();">Sign Up</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">About Us</a>
@@ -200,6 +200,24 @@
             <textarea class="form-control" id="contact-message"></textarea>
           </div>
           <button type="submit" class="btn btn-primary mb-2" onclick="$('#contact-overlay').hide();">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <div id="signup-overlay">
+      <div class="container signupform">
+        <button type="button" class="btn btn-dark" onclick="$('#signup-overlay').hide();" style="float:right;">Close</button>
+        <h2>Contact Us</h2>
+        <form>
+          <div class="form-group">
+            <label for="signup-email">Email Address:</label>
+            <input type="email" class="form-control" id="signup-email" placeholder="name@example.com">
+          </div>
+          <div class="form-group">
+            <label for="signup-message">Message:</label>
+            <textarea class="form-control" id="signup-message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary mb-2" onclick="$('#signup-overlay').hide();">Submit</button>
         </form>
       </div>
     </div>
