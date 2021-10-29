@@ -32,7 +32,7 @@
             <a class="nav-link" href="services.html">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" onclick="$('#contact-overlay').show();">Contact Us</a>
+            <a class="nav-link" href="#" onclick="$('#contact-overlay').show();">Contact Us</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Sign Up</a>
@@ -199,9 +199,8 @@
             <label for="contact-message">Message:</label>
             <textarea class="form-control" id="contact-message"></textarea>
           </div>
-          <button type="submit" class="btn btn-primary mb-2">Submit</button>
+          <button type="submit" class="btn btn-primary mb-2" onclick="$('#contact-overlay').hide();">Submit</button>
         </form>
-
       </div>
     </div>
 
