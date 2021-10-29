@@ -16,6 +16,9 @@
 
 
   <body>
+
+
+
     <div class="jumbotron jumbotron-fluid header-jumbo pt-0">
 
         <ul class="nav pt-3 pb-3 justify-content-center">
@@ -26,10 +29,10 @@
             <a class="nav-link" href="index.html" style="font-size:25px;">Peppermint Tutoring Co.</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="services.html">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
+            <a class="nav-link" onclick="$('#contact-overlay').show();">Contact Us</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Sign Up</a>
@@ -129,7 +132,7 @@
         <div class="row align-items-center">
           <div class="col">
             <h1>Want to see more?</h1>
-            <h1>Subscribe to our news.</b></h1>
+            <h1><b>Subscribe to our news.</b></h1>
           </div>
 
           <div class="col">
@@ -181,6 +184,25 @@
     </div>
 
 
+
+
+    <div id="contact-overlay">
+      <div class="container contactform">
+        <button type="button" class="btn btn-dark" onclick="$('#contact-overlay').hide();" style="float:right;">Close</button>
+        <h2>Contact Us</h2>
+        <form>
+          <div class="form-group">
+            <label for="contact-email">Email Address:</label>
+            <input type="email" class="form-control" id="contact-email" placeholder="name@example.com">
+          </div>
+          <div class="form-group">
+            <label for="contact-message">Message:</label>
+            <textarea class="form-control" id="contact-message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary mb-2">Submit</button>
+        </form>
+
+      </div>
     </div>
 
   </body>
